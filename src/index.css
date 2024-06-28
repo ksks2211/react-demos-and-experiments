@@ -1,0 +1,21 @@
+@import 'normalize.css';
+
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+
