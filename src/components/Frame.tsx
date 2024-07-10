@@ -9,7 +9,7 @@ const StyledFrame = styled(Box)`
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-color: #fff;
+  background-color: transparent;
 `;
 
 export default function Frame() {

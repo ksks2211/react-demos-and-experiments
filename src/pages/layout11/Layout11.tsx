@@ -14,7 +14,7 @@ const StyledLayout11 = styled(Box)`
 `;
 
 export default function Layout11() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);

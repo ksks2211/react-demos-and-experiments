@@ -12,6 +12,7 @@ import Layout10 from "../pages/layout10/Layout10";
 import Layout11 from "../pages/layout11/Layout11";
 import Layout12 from "../pages/layout12/Layout12";
 import Layout13 from "../pages/layout13/Layout13";
+import Layout14 from "../pages/layout14/Layout14";
 
 export default function LayoutRoutes() {
   return (
@@ -29,8 +30,8 @@ export default function LayoutRoutes() {
       <Route path="/l10" element={<Layout10 />} />
       <Route path="/l11" element={<Layout11 />} />
       <Route path="/l12" element={<Layout12 />} />
-
       <Route path="/l13" element={<Layout13 />} />
+      <Route path="/l14" element={<Layout14 />} />
     </Routes>
   );
 }

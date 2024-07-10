@@ -24,6 +24,8 @@ export const StyledRippleBox = styled(Box)<RippleBoxProps>`
   position: relative;
   overflow: hidden;
 
+  cursor: pointer;
+
   width: ${(props) => props.width || "500px"};
   height: ${(props) => props.height || "500px"};
   background-color: ${(props) => props.color};

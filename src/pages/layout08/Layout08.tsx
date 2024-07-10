@@ -9,12 +9,11 @@ const StyledLayout08 = styled(Box)`
   width: 100%;
 
   display: flex;
-  flex-flow: row;
   position: relative;
 `;
 
 export default function Layout08() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);

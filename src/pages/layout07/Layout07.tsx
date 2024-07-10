@@ -12,8 +12,9 @@ const StyledLayout07 = styled(Box)`
   position: relative;
 `;
 
+// Main Scroll deactivated when sidebar is on
 export default function Layout07() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);

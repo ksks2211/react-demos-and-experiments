@@ -8,20 +8,18 @@ interface NavBar08Props {
 
 const StyledNavBar08 = styled(Box)<NavBar08Props>`
   background-color: lightsalmon;
-  /* min-width: var(--sidebar-width); */
-
-  width: 100vw;
-  margin-left: -100vw;
+  width: 100%;
+  margin-left: -100%;
 
   display: flex;
   flex-direction: column;
 
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 100;
 
   transform: ${(props) =>
-    props.isSidebarOpen ? "translateX(100vw)" : "translateX(0)"};
+    props.isSidebarOpen ? "translateX(100%)" : "translateX(0)"};
 
   transition: transform 0.4s ease-out;
 

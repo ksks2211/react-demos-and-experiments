@@ -9,22 +9,18 @@ const StyledNavBar07 = styled(Box)<NavBar07Props>`
   background-color: lightsalmon;
   min-width: var(--sidebar-width);
   margin-left: calc(-1 * var(--sidebar-width));
-
   display: flex;
   flex-direction: column;
-
   position: sticky;
   top: 0;
+  height: 100vh;
+
   z-index: 100;
 
   transform: ${(props) =>
     props.isSidebarOpen ? "translateX(var(--sidebar-width))" : "translateX(0)"};
 
   transition: transform 0.3s ease-out;
-
-  height: 100vh;
-  flex-grow: 0;
-  flex-shrink: 0;
 `;
 
 const StyledNavBarSection1 = styled(Box)`

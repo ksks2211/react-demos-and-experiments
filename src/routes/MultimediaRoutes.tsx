@@ -30,7 +30,6 @@ export default function MultimediaRoutes() {
         {/* Can handle non-exist image */}
         <Route path="i6" element={<CondImage src={img2} />} />
         <Route path="i7" element={<CondImage src={"/not-found"} />} />
-        Image
         <Route
           path="i8"
           element={<ContainedImage src={img2} width="900px" height="200px" />}
